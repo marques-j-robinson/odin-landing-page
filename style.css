@@ -11,6 +11,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Text Classes */
 .hero-main-text {
   font-size: 48px;
