@@ -26,7 +26,7 @@ a {
 }
 
 .wrapper {
-  max-width: 1280px;
+  max-width: 1020px;
   margin: 0 auto;
 }
 
@@ -62,4 +62,59 @@ a {
 /* Section Classes */
 .hero-section {
   background-color: var(--background-dark-color);
+  height: 70vh;
+}
+
+/* Navbar Classes */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.nav-bar-links li {
+  margin-left: 25px;
+}
+
+/* Hero Classes */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero div {
+  width: 45%;
+}
+
+.hero_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero_right {
+  background-color: grey;
+  padding: 100px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary-color);
+}
+
+.hero-main-text {
+  color: var(--text-primary-color);
+  font-size: 48px;
+  font-weight: 900;
+}
+
+/* Button Classes */
+.btn-primary {
+  border: 1px solid var(--background-button-color);
+  border-radius: 5px;
+  background-color: var(--background-button-color);
+  color: var(--text-primary-color);
+  padding: 5px 30px;
+  margin-top: 10px;
 }
