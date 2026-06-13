@@ -87,6 +87,18 @@ a {
   text-align: center;
 }
 
+.box-primary {
+  background-color: var(--background-button-color);
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 0;
+  margin-top: 50px;
+  color: var(--text-primary-color);
+}
+
 .box-secondary {
   border: 3px solid var(--background-button-color);
   border-radius: 10px;
@@ -151,6 +163,15 @@ a {
 /* Button Classes */
 .btn-primary {
   border: 1px solid var(--background-button-color);
+  border-radius: 5px;
+  background-color: var(--background-button-color);
+  color: var(--text-primary-color);
+  padding: 5px 30px;
+  margin-top: 10px;
+}
+
+.btn-secondary {
+  border: 1px solid var(--text-primary-color);
   border-radius: 5px;
   background-color: var(--background-button-color);
   color: var(--text-primary-color);
