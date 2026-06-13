@@ -60,6 +60,11 @@ a {
   color: var(--text-alt-color);
 }
 
+.quote-author {
+  text-align: right;
+  font-weight: bold;
+}
+
 /* Section Classes */
 .hero-section {
   background-color: var(--background-dark-color);
@@ -88,6 +93,15 @@ a {
   width: 150px;
   height: 150px;
   margin-bottom: 10px;
+}
+
+.section-secondary {
+  background-color: var(--background-secondary-color);
+  padding: 100px 0;
+}
+
+.section-secondary .wrapper {
+  max-width: 835px;
 }
 
 /* Navbar Classes */
