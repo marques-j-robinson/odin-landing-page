@@ -51,6 +51,7 @@ a {
   font-size: 36px;
   font-weight: 900;
   color: var(--text-alt-color);
+  padding-bottom: 40px;
 }
 
 .quote-text {
@@ -63,6 +64,30 @@ a {
 .hero-section {
   background-color: var(--background-dark-color);
   height: 70vh;
+}
+
+.section-primary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0 100px 0;
+}
+
+.info-boxes li {
+  max-width: 150px;
+  padding: 0 30px;
+}
+
+.info-boxes li p {
+  text-align: center;
+}
+
+.box-secondary {
+  border: 3px solid var(--background-button-color);
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
 }
 
 /* Navbar Classes */
